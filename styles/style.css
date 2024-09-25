@@ -1,0 +1,48 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('/images/markus-spiske-iar-afB0QQw-unsplash.jpg');
+  /* Add your image path here */
+  background-size: cover;
+  /* Ensure the background image covers the entire page */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Prevent the image from repeating */
+  background-attachment: fixed;
+  /* Keeps the background fixed while scrolling */
+  color: #fff;
+  /* Optional: Adjust text color for better readability over the image */
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.portfolio .project {
+  margin-bottom: 40px;
+}
+
+.page .project a {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #FF0000 !important;
+  /* red color for the normal state */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+.page .project a:hover {
+  color: #ffcc00 !important;
+  /* Ensure hover color works */
+  text-decoration: underline;
+}
