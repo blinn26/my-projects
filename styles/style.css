@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 20px;
   background-image: url('../images/markus-spiske-iar-afB0QQw-unsplash.jpg');
-  /* Updated path */
+  /* Correct relative path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
