@@ -2,18 +2,14 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url('/images/markus-spiske-iar-afB0QQw-unsplash.jpg');
-  /* Add your image path here */
+  background-image: url('../images/markus-spiske-iar-afB0QQw-unsplash.jpg');
+  /* Updated path */
   background-size: cover;
-  /* Ensure the background image covers the entire page */
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Prevent the image from repeating */
   background-attachment: fixed;
-  /* Keeps the background fixed while scrolling */
   color: #fff;
-  /* Optional: Adjust text color for better readability over the image */
+  /* Adjust text color for better readability */
   text-align: center;
 }
 
