@@ -22,6 +22,9 @@
 .description {
   font-size: 24px;
   margin-bottom: 40px;
+  font-weight: 800;
+  /* Make the link bold */
+  transition: color 0.3s ease;
 }
 
 .portfolio .project {
@@ -30,11 +33,15 @@
 
 .page .project a {
   display: inline-block;
-  margin-bottom: 10px;
-  color: #FF0000 !important;
-  /* red color for the normal state */
+  color: #40e0d0 !important;
+  /* turquoise color for the normal state */
   text-decoration: none;
   /* Remove underline */
+  font-weight: 500;
+  /* Make the link bold */
+  transition: color 0.3s ease;
+  /* Add a smooth transition */
+  font-size: large;
 }
 
 .page .project a:hover {
