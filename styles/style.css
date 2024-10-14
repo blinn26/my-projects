@@ -1,16 +1,26 @@
+/* General styles for the page */
+body {
+  background-color: lightblue;
+  /* This was just to test if CSS was working */
+}
+
+h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+
 .page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url('../images/markus-spiske-iar-afB0QQw-unsplash.jpg');
-  /* Correct relative path */
+  background-image: url('./markus-spiske-iar-afB0QQw-unsplash_1_.jpg');
+  color: #ffffff;
+  text-align: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #fff;
-  /* Adjust text color for better readability */
-  text-align: center;
 }
 
 .title {
@@ -23,29 +33,45 @@
   font-size: 24px;
   margin-bottom: 40px;
   font-weight: 800;
-  /* Make the link bold */
-  transition: color 0.3s ease;
 }
 
-.portfolio .project {
-  margin-bottom: 40px;
-}
-
-.page .project a {
+/* Button-like style for links */
+.button {
   display: inline-block;
-  color: #40e0d0 !important;
-  /* turquoise color for the normal state */
+  background-color: greenyellow;
+  /* Turquoise */
+  color: black;
+  /* Text color */
+  padding: 12px 24px;
+  /* Padding for the button */
+  text-align: center;
+  font-size: 16px;
+  /* Adjust font size */
+  font-weight: 600;
+  /* Bold text */
+  border-radius: 6px;
+  /* Rounded corners */
   text-decoration: none;
   /* Remove underline */
-  font-weight: 500;
-  /* Make the link bold */
-  transition: color 0.3s ease;
-  /* Add a smooth transition */
-  font-size: large;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  /* Smooth transition */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Slight shadow */
+  margin: 10px;
+  /* Space between buttons */
 }
 
-.page .project a:hover {
-  color: #ffcc00 !important;
-  /* Ensure hover color works */
-  text-decoration: underline;
+/* Hover and active states for buttons */
+.button:hover {
+  background-color: whitesmoke;
+  /* Change to yellow on hover */
+  color: #000;
+  /* Change text color on hover */
+}
+
+.button:active {
+  background-color: #1f69c9;
+  /* Change to blue when clicked */
+  box-shadow: none;
+  /* Remove shadow on click */
 }
