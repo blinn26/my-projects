@@ -1,6 +1,6 @@
 /* General styles for the page */
 body {
-  background-color: lightblue;
+  background-color: black;
   /* This was just to test if CSS was working */
 }
 
@@ -8,14 +8,24 @@ h1 {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
+  color: orange;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
 }
 
 .page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url('./markus-spiske-iar-afB0QQw-unsplash_1_.jpg');
-  color: #ffffff;
+  background-image: url("../images/code3.jpg");
+  color: lime;
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -30,36 +40,12 @@ h1 {
 }
 
 .description {
-  font-size: 24px;
+  font-size: 48px;
   margin-bottom: 40px;
   font-weight: 800;
+  color: orange;
 }
 
-/* Button-like style for links */
-.button {
-  display: inline-block;
-  background-color: greenyellow;
-  /* Turquoise */
-  color: black;
-  /* Text color */
-  padding: 12px 24px;
-  /* Padding for the button */
-  text-align: center;
-  font-size: 16px;
-  /* Adjust font size */
-  font-weight: 600;
-  /* Bold text */
-  border-radius: 6px;
-  /* Rounded corners */
-  text-decoration: none;
-  /* Remove underline */
-  transition: background-color 0.3s ease, color 0.3s ease;
-  /* Smooth transition */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  /* Slight shadow */
-  margin: 10px;
-  /* Space between buttons */
-}
 
 /* Hover and active states for buttons */
 .button:hover {
@@ -74,4 +60,44 @@ h1 {
   /* Change to blue when clicked */
   box-shadow: none;
   /* Remove shadow on click */
+}
+
+/* Container for project links */
+.project__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center the items horizontally */
+  margin-bottom: 20px;
+  width: 100%;
+  /* Make sure the container takes full width */
+}
+
+/* Button and link styling */
+.button {
+  display: inline-block;
+  background-color: turquoise;
+  color: black;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  /* Margin between button and link */
+}
+
+.link {
+  color: greenyellow;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* Space below each link */
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: lightgreen;
 }
