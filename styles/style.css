@@ -40,10 +40,16 @@ h2 {
 }
 
 .description {
-  font-size: 48px;
+  font-size: 30px;
   margin-bottom: 40px;
   font-weight: 800;
   color: orange;
+  text-align: center;
+  /* Centers the text horizontally */
+  margin-left: auto;
+  /* Ensure automatic left margin */
+  margin-right: auto;
+  /* Ensure automatic right margin */
 }
 
 
